@@ -1,0 +1,113 @@
+.contact{
+    margin-bottom: 6.5%;
+    top: 5%;
+    padding-top: 2rem; 
+}
+.contact-container h3{
+    margin-left: 50px;
+    /* font-size: 18px; */
+}
+.contact-container p{
+    margin-left: 70px;
+    font-size: 18px;
+}
+.specialist-container h3{
+    margin-left: 80px;
+}
+.specialist-container p{
+    color: orange;
+    font-size: 18px;
+    margin-left: 70px;
+
+}
+h4{
+    color: orange;
+    font-size: 20px;
+    /* margin-top: -100px; */
+    margin-left: 70px;
+
+  }
+.rightside h4{
+    color: orange;
+    margin-top: -300px;
+    margin-left: 900px;
+}
+form{
+    margin-left: 800px;
+    display: grid;
+    height: 400px;
+    gap: 10px;
+    background: black;
+    margin-top: -90px;
+    /* width: 50px; */
+}
+input, textarea{
+background: black;
+
+}
+form input {
+    height: 40px;
+    width: 100%;
+    border-bottom: 2px solid rgba(253, 133, 28);
+    /* border-bottom: 1px solid rgba(253, 133, 28); */
+    /* color: rgb(253, 133, 28); */
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white; 
+  }
+form textarea {
+    margin-top: 25px;
+    height: 70px;
+    width: 100%;
+    border-bottom: 2px solid rgba(253, 133, 28);
+    /* border-bottom: 1px solid #121619; */
+    color: white;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+
+  }
+input::placeholder,
+textarea::placeholder {
+  font-weight: 200;
+  color: rgb(128, 128, 128);
+  font-family: Arial, Helvetica, sans-serif;
+}
+form input:focus,
+textarea:focus {
+  outline: none;
+}
+
+form label {
+  margin-top: 15px;
+  color: whitesmoke;
+  font-weight: bold;
+  background: transparent;
+}
+form button {
+    margin-top: 10px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: rgba(253, 133, 28);
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 70px;
+  }
+.social{
+    margin-top: 250px;
+    text-align: center;
+    gap: 5px;
+}
+h2{
+    color: white;
+}
+.icons{
+    width: 35px;
+    font-size: 25px;
+}
